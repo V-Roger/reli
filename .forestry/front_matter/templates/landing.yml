@@ -1,0 +1,13 @@
+---
+label: Landing
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  label: Texte de présentation
+  name: texte-presentation
+  config:
+    required: false
+  default: Bonjour
+pages:
+- content/accueil.md
