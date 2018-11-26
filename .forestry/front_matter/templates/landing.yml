@@ -23,5 +23,8 @@ fields:
   name: buttonlink
   label: Button link
   default: "#about"
+- type: file
+  name: image
+  label: Image
 pages:
 - content/accueil.md
