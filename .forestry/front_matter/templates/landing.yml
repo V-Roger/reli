@@ -18,5 +18,8 @@ fields:
 - type: text
   name: buttontext
   label: Button text
+- type: text
+  name: buttonlink
+  label: Button link
 pages:
 - content/accueil.md
