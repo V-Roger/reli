@@ -9,5 +9,11 @@ fields:
   config:
     required: false
   default: Bonjour
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
+  default: Aurélie
 pages:
 - content/accueil.md
