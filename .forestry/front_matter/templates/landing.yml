@@ -15,5 +15,8 @@ fields:
   config:
     required: false
   default: Bonjour
+- type: text
+  name: buttontext
+  label: Button text
 pages:
 - content/accueil.md
