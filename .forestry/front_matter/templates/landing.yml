@@ -18,8 +18,10 @@ fields:
 - type: text
   name: buttontext
   label: Button text
+  default: Qui sommes-nous ?
 - type: text
   name: buttonlink
   label: Button link
+  default: "#about"
 pages:
 - content/accueil.md
