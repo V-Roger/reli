@@ -3,3 +3,5 @@ label: Landing
 hide_body: false
 is_partial: false
 fields: []
+pages:
+- content/accueil.md
