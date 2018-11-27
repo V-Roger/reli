@@ -24,7 +24,7 @@ fields:
   label: Button link
   default: "#about"
 - type: file
-  name: hero-image
+  name: hero_image
   label: hero-Image
   default: "/uploads/20180925012-2.jpg"
 - type: number
