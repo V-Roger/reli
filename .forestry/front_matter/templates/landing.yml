@@ -41,5 +41,11 @@ fields:
   label: section1
   template_types:
   - section_tile
+- type: text
+  name: section2_title
+  label: Section2 Title
+- type: text
+  name: section1_title
+  label: Section1 Title
 pages:
 - content/hero.md
