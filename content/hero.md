@@ -18,5 +18,11 @@ icon = "kids"
 template = "section_tile"
 text = "Thérapie enfants"
 title = "Enfants"
+[[section1]]
+buttonText = "Appeler"
+icon = "teens"
+template = "section_tile"
+text = "Thérapie ados"
+title = "Ados"
 
 +++
