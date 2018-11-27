@@ -23,6 +23,7 @@ text = "Thérapie ados"
 title = "Ados"
 [[section2]]
 name = "Aurélie"
+photo = "/uploads/20180925012-2.jpg"
 summary = "Thérapiste spécialisée dans les bilans et les enfants."
 template = "presentation"
 
