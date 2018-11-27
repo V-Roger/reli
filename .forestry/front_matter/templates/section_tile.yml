@@ -1,0 +1,21 @@
+---
+label: section_tile
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: icon
+  label: icon
+- type: textarea
+  name: text
+  label: text
+- type: text
+  name: buttonText
+  label: buttonText
+- type: text
+- type: text
+  name: url
+  label: url
