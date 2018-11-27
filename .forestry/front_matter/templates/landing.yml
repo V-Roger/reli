@@ -32,8 +32,8 @@ fields:
   name: phone_number
   default: '0612121212'
 - type: blocks
-  label: Présentations
-  name: presentations
+  label: Section2
+  name: section2
   template_types:
   - presentation
 - type: blocks
