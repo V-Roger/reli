@@ -29,5 +29,10 @@ fields:
 - type: number
   label: Phone number
   name: phone_number
+- type: blocks
+  label: Présentations
+  name: presentations
+  template_types:
+  - presentation
 pages:
 - content/index.md
