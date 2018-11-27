@@ -1,10 +1,10 @@
-{{- $footer       := .Site.Params.footer }}
-{{- $logo         := index $footer "logo" }}
-{{- $productLinks := index $footer "product" }}
-{{- $docLinks     := index $footer "docs" }}
-{{- $blogrollLinks:= index $footer "blogroll" }}
-{{- $socialMedia  := index $footer "socialmedia" }}
-{{- $bulmaLogo    := index $footer "bulmalogo" }}
+{{- $footer       := .Site.GetPage "/hero" }}
+{{- $logo         := $footer.Params.logo }}
+{{- $productLinks := $footer.Params.product }}
+{{- $docLinks     := $footer.Params.docs }}
+{{- $blogrollLinks:= $footer.Params.blogroll }}
+{{- $socialMedia  := $footer.Params.socialmedia }}
+{{- $bulmaLogo    := $footer.Params.bulmalogo }}
 <footer class="footer footer-dark">
   <div class="container">
     <div class="columns">

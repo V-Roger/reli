@@ -1,9 +1,9 @@
-{{- $hero       := .Site.Pages.Accueil.hero }}
-{{- $title      := index $hero "title" }}
-{{- $subtitle   := index $hero "subtitle" }}
-{{- $buttonText := index $hero "buttontext" }}
-{{- $buttonLink := index $hero "buttonlink" }}
-{{- $image      := index $hero "image" }}
+{{- $hero       := .Site.GetPage "/hero" }}
+{{- $title      := $hero.Params.title }}
+{{- $subtitle   := $hero.Params.subtitle }}
+{{- $buttonText := $hero.Params.buttontext }}
+{{- $buttonLink := $hero.Params.buttonlink }}
+{{- $image      := $hero.Params.image }}
 <div class="hero-body">
   <div class="container">
     <div class="columns is-vcentered">

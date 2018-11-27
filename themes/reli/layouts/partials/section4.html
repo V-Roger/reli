@@ -1,7 +1,7 @@
-{{- $section4 := .Site.Params.section4 }}
-{{- $title    := index $section4 "title" }}
-{{- $subtitle := index $section4 "subtitle" }}
-{{- $clients  := index $section4 "clients" }}
+{{- $section4 := .Site.GetPage "/hero" }}
+{{- $title    := $section4.Params.title }}
+{{- $subtitle := $section4.Params.subtitle }}
+{{- $clients  := $section4.Params.clients }}
 <section class="section is-medium section-secondary">
   <div class="container">
 
