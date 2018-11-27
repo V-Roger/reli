@@ -7,5 +7,9 @@ image = ""
 phone_number = "0612121212"
 subtitle = "Bonjour"
 title = "Index"
+[[presentations]]
+nom = "Aurélie"
+presentation = "Coucou tu veux voir mon site ? "
+template = "presentation"
 
 +++
