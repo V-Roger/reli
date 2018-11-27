@@ -7,6 +7,8 @@ hero_image = "/uploads/20180925012.jpg"
 image = ""
 phone_number = "0612121212"
 presentations = []
+section1_title = "Prestations"
+section2_title = "Présentation"
 subtitle = "Bienvenue au cabinet d'Aurélie Rélie."
 title = "Aurélie. Réli"
 [[section1]]
