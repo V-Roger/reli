@@ -1,0 +1,15 @@
+---
+label: Présentation
+hide_body: false
+is_partial: true
+display_field: nom
+fields:
+- type: textarea
+  name: presentation
+  label: Présentation
+- type: text
+  name: nom
+  label: Nom
+- type: file
+  name: photo
+  label: Photo

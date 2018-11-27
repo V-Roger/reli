@@ -24,7 +24,15 @@ fields:
   label: Button link
   default: "#about"
 - type: file
-  name: image
-  label: Image
+  name: hero-image
+  label: hero-Image
+- type: number
+  label: Phone number
+  name: phone_number
+- type: blocks
+  label: Présentations
+  name: presentations
+  template_types:
+  - presentation
 pages:
 - content/index.md
