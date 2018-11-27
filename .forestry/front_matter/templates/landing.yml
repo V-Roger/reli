@@ -26,5 +26,8 @@ fields:
 - type: file
   name: hero-image
   label: hero-Image
+- type: number
+  label: Phone number
+  name: phone_number
 pages:
 - content/index.md
