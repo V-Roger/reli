@@ -12,5 +12,11 @@ title = "Aurélie. Réli"
 nom = "Aurélie"
 presentation = "Coucou tu veux voir mon site ? "
 template = "presentation"
+[[section1]]
+buttonText = "Appeler"
+icon = "kids"
+template = "section_tile"
+text = "Thérapie enfants"
+title = "Enfants"
 
 +++
