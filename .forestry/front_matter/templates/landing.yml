@@ -44,8 +44,10 @@ fields:
 - type: text
   name: section2_title
   label: Section2 Title
+  default: Présentation
 - type: text
   name: section1_title
   label: Section1 Title
+  default: Prestations
 pages:
 - content/hero.md
