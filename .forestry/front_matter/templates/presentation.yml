@@ -5,11 +5,11 @@ is_partial: true
 display_field: nom
 fields:
 - type: textarea
-  name: presentation
-  label: Présentation
+  name: summary
+  label: summary
 - type: text
-  name: nom
-  label: Nom
+  name: name
+  label: Name
 - type: file
   name: photo
   label: Photo
