@@ -34,5 +34,3 @@ fields:
   name: presentations
   template_types:
   - presentation
-pages:
-- content/index.md
