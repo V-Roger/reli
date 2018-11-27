@@ -2,7 +2,7 @@
 label: section2
 hide_body: false
 is_partial: true
-display_field: summary
+display_field: name
 fields:
 - type: textarea
   name: summary
