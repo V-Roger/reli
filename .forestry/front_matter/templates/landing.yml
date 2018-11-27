@@ -24,7 +24,7 @@ fields:
   label: Button link
   default: "#about"
 - type: file
-  name: image
-  label: Image
+  name: hero-image
+  label: hero-Image
 pages:
 - content/index.md
