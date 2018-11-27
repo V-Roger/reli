@@ -36,5 +36,10 @@ fields:
   name: presentations
   template_types:
   - presentation
+- type: blocks
+  name: section1
+  label: section1
+  template_types:
+  - section_tile
 pages:
 - content/hero.md
