@@ -36,3 +36,5 @@ fields:
   name: presentations
   template_types:
   - presentation
+pages:
+- content/hero.md
