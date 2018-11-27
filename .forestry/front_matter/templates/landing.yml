@@ -26,9 +26,11 @@ fields:
 - type: file
   name: hero-image
   label: hero-Image
+  default: "/uploads/20180925012-2.jpg"
 - type: number
   label: Phone number
   name: phone_number
+  default: '0612121212'
 - type: blocks
   label: Présentations
   name: presentations
