@@ -2,7 +2,14 @@
 label: Photos
 hide_body: false
 is_partial: true
+display_field: caption
 fields:
-- type: image_gallery
-  label: Photos
-  name: photos
+- type: file
+  name: photo
+  label: Photo
+- type: text
+  name: caption
+  label: Caption
+- type: text
+  name: subcaption
+  label: Subcaption
