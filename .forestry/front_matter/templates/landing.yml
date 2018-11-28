@@ -49,5 +49,21 @@ fields:
   name: section1_title
   label: Section1 Title
   default: Prestations
+- type: text
+  name: section2_subtitle
+  label: section2 subtitle
+  default: Qui sommes-nous ?
+- type: text
+  name: section1_subtitle
+  label: section1 subtitle
+  default: Que peut-on faire pour vous ?
+- type: text
+  name: section4_title
+  label: section4 title
+  default: Notre cabinet
+- type: text
+  name: section4_subtitle
+  label: section4 subtitle
+  default: En quelques photos
 pages:
 - content/hero.md
