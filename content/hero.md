@@ -19,6 +19,11 @@ caption = "Entrée"
 photo = "/uploads/20180608_030.jpg"
 subcaption = "ça donne envie"
 template = "photos"
+[[photos]]
+caption = "Plafond"
+photo = "/uploads/20180319_015-2.jpg"
+subcaption = "Lumineux, n'est-ce pas ?"
+template = "photos"
 [[section1]]
 buttonText = "Appeler"
 icon = "/uploads/iconfinder_Sister_3231120.svg"
