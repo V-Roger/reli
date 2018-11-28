@@ -65,9 +65,10 @@ fields:
   name: section4_subtitle
   label: section4 subtitle
   default: En quelques photos
-- type: include
-  label: photos
+- type: blocks
   name: photos
-  template: photos
+  label: Photos
+  template_types:
+  - photos
 pages:
 - content/hero.md
