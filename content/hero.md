@@ -23,6 +23,7 @@ template = "section_tile"
 text = "Thérapie ados"
 title = "Ados"
 [[section1]]
+buttonText = "Appeler"
 icon = "/uploads/iconfinder_Mother_3231122.svg"
 template = "section_tile"
 text = "Pour les vieux"
