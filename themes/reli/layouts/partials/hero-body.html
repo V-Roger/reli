@@ -4,7 +4,7 @@
 {{- $buttonText := $hero.Params.buttontext }}
 {{- $buttonLink := $hero.Params.buttonlink }}
 {{- $image      := $hero.Params.hero_image }}
-<div class="hero-body">
+<div class="hero-body" style="background-image: url('{{ printf "%s" $image | relURL }}');">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-5 is-offset-1 landing-caption">
@@ -21,11 +21,6 @@
             {{ $buttonText }}
           </a>
         </p>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="image is-5by7">
-          <img src="{{ printf "%s" $image | relURL }}" alt="Description">
-        </figure>
       </div>
     </div>
   </div>
