@@ -6856,7 +6856,6 @@ Testimonials Styles
   overflow: hidden;
   margin: 10px auto;
   min-width: 220px;
-  max-width: 310px;
   width: 100%;
   color: #333;
   text-align: left;
@@ -6864,7 +6863,7 @@ Testimonials Styles
   .testimonial * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  .testimonial img {
+  .testimonial .author img {
     max-width: 100%;
     height: 80px;
     width: 80px;

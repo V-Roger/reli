@@ -1,7 +1,7 @@
 {{- $section4 := .Site.GetPage "/hero" }}
-{{- $title    := $section4.Params.title }}
-{{- $subtitle := $section4.Params.subtitle }}
-{{- $clients  := $section4.Params.clients }}
+{{- $title := $section4.Params.section4_title }}
+{{- $subtitle := $section4.Params.section4_subtitle }}
+{{- $photos := $section4.Params.photos }}
 <section class="section is-medium section-secondary">
   <div class="container">
 
@@ -14,16 +14,16 @@
 
     <div class="content-wrapper">
       <div class="columns is-vcentered">
-        {{- range $clients }}
+        {{- range $photos }}
         <div class="column is-4">
           <figure class="testimonial">
             <blockquote>
-              {{ .quote }}
+              <img src="{{ printf "%s" .photo | relURL }}" alt="Description">
             </blockquote>
             <div class="author">
-              <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
-              <h5>{{ .name }}</h5>
-              <span>{{ .job }}</span>
+              <img src="{{ printf "%s" .icon | relURL }}" alt="Description">
+              <h5>{{ .caption }}</h5>
+              <span>{{ .subcaption }}</span>
             </div>
           </figure>
         </div>

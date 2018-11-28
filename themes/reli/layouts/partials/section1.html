@@ -1,5 +1,6 @@
 {{- $section1 := .Site.GetPage "/hero" }}
 {{- $title :=  $section1.Params.section1_title }}
+{{- $title :=  $section1.Params.section1_subtitle }}
 {{- $tiles := $section1.Params.section1 }}
 <section id="about" class="section section-feature-grey is-medium">
   <div class="container">
