@@ -68,5 +68,6 @@ fields:
 - type: include
   label: photos
   name: photos
+  template: photos
 pages:
 - content/hero.md
