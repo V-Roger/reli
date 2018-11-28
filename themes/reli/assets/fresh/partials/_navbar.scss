@@ -8,6 +8,8 @@ Navbar
     min-height: 3.8rem;
     transition: all .3s;
     z-index: 99;
+    border-bottom: 8px solid $primary;
+
     .container {
         min-height: 4rem;
     }
