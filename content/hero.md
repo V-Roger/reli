@@ -12,7 +12,7 @@ subtitle = "Bienvenue au cabinet d'Aurélie Rélie."
 title = "Aurélie. Réli"
 [[section1]]
 buttonText = "Appeler"
-icon = "kids"
+icon = "/uploads/iconfinder_Sister_3231120.svg"
 template = "section_tile"
 text = "Thérapie enfants"
 title = "Enfants"
