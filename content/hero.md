@@ -27,5 +27,10 @@ name = "Aurélie"
 photo = "/uploads/20180907_037.jpg"
 summary = "Thérapiste spécialisée dans les bilans et les enfants."
 template = "presentation"
+[[section2]]
+name = "Autre psy"
+photo = "/uploads/20180907_037.jpg"
+summary = "Coucou, tu veux voir le site ?"
+template = "presentation"
 
 +++
