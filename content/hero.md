@@ -24,6 +24,11 @@ caption = "Plafond"
 photo = "/uploads/20180319_015-2.jpg"
 subcaption = "Lumineux, n'est-ce pas ?"
 template = "photos"
+[[photos]]
+caption = "Extérieur"
+photo = "/uploads/20180925012.jpg"
+subcaption = "Post URSS"
+template = "photos"
 [[section1]]
 buttonText = "Appeler"
 icon = "/uploads/iconfinder_Sister_3231120.svg"
