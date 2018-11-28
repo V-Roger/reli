@@ -18,7 +18,7 @@ text = "Thérapie enfants"
 title = "Enfants"
 [[section1]]
 buttonText = "Appeler"
-icon = "teens"
+icon = "/uploads/iconfinder_Father_3231125.svg"
 template = "section_tile"
 text = "Thérapie ados"
 title = "Ados"
