@@ -7,9 +7,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: icon
-  label: icon
 - type: textarea
   name: text
   label: text
@@ -20,3 +17,6 @@ fields:
 - type: text
   name: url
   label: url
+- type: file
+  name: icon
+  label: icon
