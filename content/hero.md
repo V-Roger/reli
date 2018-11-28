@@ -5,6 +5,7 @@ date = "2018-11-26T19:14:36+00:00"
 hero_image = "/uploads/background-1.png"
 image = ""
 phone_number = "0612121212"
+photos = ["/uploads/20180925012.jpg", "/uploads/20180608_030.jpg", "/uploads/20180319_015-2.jpg"]
 presentations = []
 section1_subtitle = "Que peut-on faire pour vous ?"
 section1_title = "Prestations"
