@@ -22,6 +22,11 @@ icon = "/uploads/iconfinder_Father_3231125.svg"
 template = "section_tile"
 text = "Thérapie ados"
 title = "Ados"
+[[section1]]
+icon = "/uploads/iconfinder_Mother_3231122.svg"
+template = "section_tile"
+text = "Pour les vieux"
+title = "Adultes"
 [[section2]]
 name = "Aurélie"
 photo = "/uploads/20180907_037.jpg"
