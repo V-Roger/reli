@@ -109,7 +109,7 @@ Navbar
     width: 100%;
     background: $white;
     transform: translateY(-100%);
-    z-index: 100;
+    z-index: 1000;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
     &.is-active {
         transform: translateY(0); 
