@@ -1,6 +1,7 @@
 +++
 buttonlink = "#about"
 buttontext = "07 83 98 01 98"
+content = "Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement."
 date = "2018-11-26T19:14:36+00:00"
 hero_image = "/uploads/adult-cute-daughter-701014.jpg"
 image = ""
