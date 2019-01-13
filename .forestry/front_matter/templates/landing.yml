@@ -36,7 +36,8 @@ fields:
   label: Hero_footer
   config:
     required: true
-  default: " "
+  default: " Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans
+    leur cabinet de psychologie du lundi au vendredi, sur rendez-vous uniquement."
 - type: blocks
   label: Section2
   name: section2
