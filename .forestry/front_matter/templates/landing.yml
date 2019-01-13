@@ -31,6 +31,10 @@ fields:
   label: Phone number
   name: phone_number
   default: '0612121212'
+- type: include
+  template: colored-background
+  label: Intro
+  name: Intro
 - type: blocks
   label: Section2
   name: section2
@@ -70,5 +74,6 @@ fields:
   label: Photos
   template_types:
   - photos
+- type: include
 pages:
 - content/hero.md
