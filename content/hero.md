@@ -1,4 +1,5 @@
 +++
+Hero_footer = " Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement. "
 buttonlink = "#about"
 buttontext = "07 83 98 01 98"
 content = "Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement."
@@ -16,19 +17,22 @@ section4_title = "Le cabinet"
 subtitle = "Prenez rendez-vous au :"
 title = "Le cabinet de psychologie est situé au 6 rue des naïves à Feyzin"
 [[photos]]
-caption = "Entrée"
-photo = "/uploads/20180608_030.jpg"
-subcaption = "ça donne envie"
+caption = ""
+photo = "/uploads/carré 4.jpg"
+subcaption = ""
 template = "photos"
 [[photos]]
-caption = "Plafond"
-photo = "/uploads/20180319_015-2.jpg"
-subcaption = "Lumineux, n'est-ce pas ?"
+caption = ""
+photo = "/uploads/carré 3.jpg"
+subcaption = ""
 template = "photos"
 [[photos]]
-caption = "Extérieur"
-photo = "/uploads/20180925012.jpg"
-subcaption = "Post URSS"
+caption = ""
+photo = "/uploads/carré1.jpg"
+subcaption = ""
+template = "photos"
+[[photos]]
+photo = "/uploads/carré2.jpg"
 template = "photos"
 [[section1]]
 buttonText = "Appeler"
