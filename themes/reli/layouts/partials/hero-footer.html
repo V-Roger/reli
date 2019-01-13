@@ -1,17 +1,7 @@
 {{- $hero       := .Site.GetPage "/hero"  }}
-{{- $clientLogos := $hero.Params.clientlogos }}
-<div class="hero-foot mb-20">
+{{- $text := $hero.Params.content }}
+<div class="hero-foot mb-20 section section-secondary">
   <div class="container">
-    <div class="tabs is-centered">
-      <ul>
-        {{- range $clientLogos }}
-        <li>
-          <a>
-            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" . | relURL }}">
-          </a>
-        </li>
-        {{- end }}
-      </ul>
+      {{ $text }}
     </div>
-  </div>
 </div>
