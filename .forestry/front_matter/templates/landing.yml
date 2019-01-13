@@ -31,10 +31,12 @@ fields:
   label: Phone number
   name: phone_number
   default: '0612121212'
-- type: include
-  template: colored-background
-  label: Intro
-  name: Intro
+- type: textarea
+  name: Hero_footer
+  label: Hero_footer
+  config:
+    required: true
+  default: " "
 - type: blocks
   label: Section2
   name: section2
