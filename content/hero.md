@@ -2,7 +2,7 @@
 buttonlink = "#about"
 buttontext = "Appelez-moi"
 date = "2018-11-26T19:14:36+00:00"
-hero_image = "/uploads/background-1.png"
+hero_image = "/uploads/adult-cute-daughter-701014.jpg"
 image = ""
 phone_number = "0612121212"
 presentations = []
