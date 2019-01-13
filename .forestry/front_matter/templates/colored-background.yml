@@ -2,4 +2,10 @@
 label: Colored background
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: true
+  default: Enter content here
