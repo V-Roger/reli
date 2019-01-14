@@ -39,7 +39,7 @@ buttonText = "En savoir plus..."
 icon = ""
 template = "section_tile"
 text = "troubles du comportement, problèmes scolaires..."
-title = "La psychothérapie de l’enfant ("
+title = "La psychothérapie de l’enfant"
 [[section1]]
 buttonText = "Appeler"
 icon = "/uploads/iconfinder_Father_3231125.svg"
