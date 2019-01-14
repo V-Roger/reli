@@ -19,10 +19,10 @@
 
     {{ block "main" . }}
     {{ partial "hero.html" . }}
-    {{ partial "section2.html" . }}
+    {{ partial "section4.html" . }}
+    <!-- {{ partial "section2.html" . }} -->
     {{ partial "section1.html" . }}
     {{ partial "section3.html" . }}
-    {{ partial "section4.html" . }}
     {{ partial "footer.html" . }}
 
     <!-- Back To Top Button -->
@@ -33,21 +33,14 @@
     {{ partial "javascript.html" . }}
     <script>
       var map;
-      var shrubbery = {lat: 45.769069, lng: 4.865986};
-      var shrubIcon = L.icon({
-        iconUrl: './splash/logo_icon_shrubbery_marker.svg',
-
-        iconSize:     [40, 200], // size of the icon
-        iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-        popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-      });
       function initMap() {
-        map = L.map('map').setView([45.769069, 4.865986], window.innerWidth > 1000 ? 15 : 16);
+        map = L.map('map').setView([45.676207, 4.862148], window.innerWidth > 1000 ? 15 : 16);
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
           attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
           minZoom: 12,
           maxZoom: 18
         }).addTo(map);
+        var marker = L.marker([45.676207, 4.862148]).addTo(map)
       }
       initMap();
     </script>

@@ -6162,9 +6162,9 @@ label.panel-block {
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1088px) {
     .section.is-medium {
-      padding: 9rem 1.5rem; }
+      padding: 4rem 1.5rem; }
     .section.is-large {
-      padding: 18rem 1.5rem; } }
+      padding: 9rem 1.5rem; } }
 
 .footer {
   background-color: #fafafa;
@@ -6356,11 +6356,13 @@ Section Styles
 .section .title, .section .subtitle {
   font-family: 'Open Sans', sans-serif; }
 
+.section .title {
+  margin-bottom: 40px; }
+
 .section .subtitle.is-muted {
   color: #999; }
 
 .title-wrapper {
-  max-width: 500px;
   margin: 0 auto; }
   .title-wrapper .title, .title-wrapper .subtitle {
     font-family: 'Open Sans', sans-serif; }
@@ -6393,6 +6395,9 @@ Section Styles
     color: #A9ABAC;
     font-size: 1rem;
     font-weight: 400; }
+
+#map {
+  filter: grayscale(80%); }
 
 /* ==========================================================================
 Hero styles
@@ -6551,12 +6556,14 @@ Cards and Card content styles
     padding-top: 25px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #444F60; }
+    color: #444F60;
+    margin-bottom: 40px; }
   .feature-card .card-icon img {
     height: 120px;
     margin-top: 20px; }
   .feature-card .card-text {
-    padding: 0 40px; }
+    padding: 0 40px;
+    margin-top: 40px; }
     .feature-card .card-text p {
       color: #999; }
   .feature-card .card-action {

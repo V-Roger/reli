@@ -5,17 +5,16 @@
 {{- $buttonText := $section3.Params.buttontext }}
 {{- $buttonLink := $section3.Params.buttonlink }}
 <section class="section section-feature-grey is-medium">
-  <div class="container">
     <div class="columns">
       <div class="column is-12">
-        <div id="map" style="width: 100%; min-height: 600px;">
+        <div id="map" style="width: 100%; min-height: 300px;">
         </div>
       </div>
     </div>
-
-    <div class="title-wrapper has-text-centered">
+  <div class="container">
+    <div class="title-wrapper">
       <h2 class="title is-2">{{ $title }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <h3 class="subtitle is-5 is-muted has-text-centered">{{ $subtitle }}</h3>
     </div>
 
     <p class="has-text-centered mt-20">

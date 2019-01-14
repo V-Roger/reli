@@ -17,6 +17,7 @@ Cards and Card content styles
         font-size: 1.2rem;
         font-weight: 600;
         color: $blue-grey;
+        margin-bottom: 40px;
     }
     .card-icon img {
         height: 120px;
@@ -24,6 +25,7 @@ Cards and Card content styles
     }
     .card-text {
         padding: 0 40px;
+        margin-top: 40px;
         p {
             color: $muted-grey;
         }
