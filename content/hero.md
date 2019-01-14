@@ -36,7 +36,7 @@ photo = "/uploads/carré2.jpg"
 template = "photos"
 [[section1]]
 buttonText = "En savoir plus..."
-icon = "/uploads/iconfinder_Sister_3231120.svg"
+icon = ""
 template = "section_tile"
 text = "troubles du comportement, problèmes scolaires..."
 title = "La psychothérapie de l’enfant ("
