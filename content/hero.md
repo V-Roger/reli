@@ -38,7 +38,7 @@ template = "photos"
 buttonText = "En savoir plus..."
 icon = ""
 template = "section_tile"
-text = "troubles du comportement, problèmes scolaires..."
+text = "Troubles du comportement, problèmes scolaires..."
 title = "La psychothérapie de l’enfant"
 [[section1]]
 buttonText = "Notamment la crise d'adolescence"
