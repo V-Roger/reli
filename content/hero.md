@@ -41,10 +41,10 @@ template = "section_tile"
 text = "troubles du comportement, problèmes scolaires..."
 title = "La psychothérapie de l’enfant"
 [[section1]]
-buttonText = "Appeler"
-icon = "/uploads/iconfinder_Father_3231125.svg"
+buttonText = "Notamment la crise d'adolescence"
+icon = ""
 template = "section_tile"
-text = "Thérapie ados"
+text = "La psychothérapie de l’adolescent"
 title = "Ados"
 [[section1]]
 buttonText = "Appeler"
