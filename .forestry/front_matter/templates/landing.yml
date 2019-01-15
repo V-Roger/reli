@@ -78,5 +78,28 @@ fields:
   template_types:
   - photos
 - type: include
+- type: text
+  name: footer_title
+  label: Footer title
+  default: Psychologue clinicienne
+- type: text
+  name: footer_address
+  label: Footer address
+  default: 6 rue des naïves  69320 Feyzin
+- type: text
+  name: footer_phone
+  label: Footer phone
+  default: 07 83 98 01 98
+- type: text
+  name: footer_hours
+  label: Footer hours
+  default: Horaires d'ouverture
+- type: list
+  name: footer_hours_list
+  label: Footer hours list
+  config:
+    use_select: false
+    source:
+      type: documents
 pages:
 - content/hero.md
