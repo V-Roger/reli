@@ -1,36 +1,40 @@
 {{- $footer       := .Site.GetPage "/hero" }}
-{{- $logo         := $footer.Params.logo }}
-{{- $productLinks := $footer.Params.product }}
-{{- $docLinks     := $footer.Params.docs }}
-{{- $blogrollLinks:= $footer.Params.blogroll }}
-{{- $socialMedia  := $footer.Params.socialmedia }}
-{{- $bulmaLogo    := $footer.Params.bulmalogo }}
-<footer class="footer footer-dark">
+{{- $footerHours := $footer.Params.footer_hours }}
+{{- $footerHoursList     := $footer.Params.footer_hours_list }}
+{{- $footerTitle := $footer.Params.footer_title }}
+{{- $footerAddress  := $footer.Params.footer_address }}
+{{- $footerPhone  := $footer.Params.footer_phone }}
+<footer class="footer footer-secondary">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="footer-logo">
-          Aurélie
-          <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
-        </div>
+      <div class="column has-text-centered">
+        <h2>Aurélie Gaudiller</h2>
+        <h3>{{ $footerTitle }}</h3>
+        <address>
+          {{ $footerAddress }}
+        </address>
       </div>
-      <div class="column">
+      <div class="column has-text-centered">
         <div class="footer-column">
           <div class="footer-header">
-            <h3>MENU</h3>
+            <h3>{{ $footerHours }}</h3>
           </div>
           <ul class="link-list">
-            {{- range $productLinks }}
+            {{- range $footerHoursList }}
             <li>
-              <a href="{{ .link }}">
-                {{ .text }}
-              </a>
+              {{ . }}
             </li>
             {{- end }}
           </ul>
         </div>
       </div>
-      
+      <div class="column has-text-centered">
+        <img class="phone-icon" src='{{ "images/illustrations/icon__phone.svg" | relURL }}' alt="Téléphone"/>
+        <a class="phone-link" href="tel:{{ $footerPhone }}">{{ $footerPhone }}</a>
+      </div>
     </div>
+  </div>
+  <div class="footer-legal has-text-centered">
+    <p>©2019 — Tous droits réservés — Réalisation OMG Design</p>
   </div>
 </footer>

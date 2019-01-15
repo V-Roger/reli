@@ -5,9 +5,9 @@ Hero styles
 .hero-body {
   margin-top: -4rem;
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 12rem;
   background-size: 100%;
-  background-position: center;
+  background-position: top center;
   color: $white;
 
   .title, .subtitle {
@@ -15,8 +15,9 @@ Hero styles
     color: $white;
   }
   .title {
+    font-size: 1.5rem;
     &.is-bold {
-      font-weight: 700;
+      font-weight: 500;
     }
   }
   .subtitle {
