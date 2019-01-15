@@ -4,10 +4,10 @@ Hero styles
 
 .hero-body {
   margin-top: -4rem;
-  padding-top: 6rem;
-  padding-bottom: 12rem;
-  background-size: 100%;
+  padding: 20rem 0;
+  background-size: cover;
   background-position: top center;
+  background-repeat: no-repeat;
   color: $white;
 
   .title, .subtitle {
@@ -36,5 +36,21 @@ Hero styles
 
   img.partner-logo {
     height: 70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-body {
+    padding: 10rem 2rem 2rem 2rem;
+
+    & .title {
+      background: rgba(0,0,0,0.3);
+      border-radius: 4px;
+      padding: 40px;
+    }
+  }
+
+  .hero-foot {
+    padding: 5rem 2rem;
   }
 }

@@ -1,45 +1,22 @@
-{{- $navbar := .Site.Params.navbar }}
+{{- $navbar       := .Site.GetPage "/hero" }}
+{{- $navbarPhone  := $navbar.Params.phone_number }}
 <nav class="navbar is-fresh no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="#accueil">
         Cabinet Psychologue Feyzin
       </a>
     </div>
 
       <div id="navbar-menu" class="navbar-menu is-static">
         <div class="navbar-start">
-          <a href="#photos">Photos</a>
+          <a class="navbar-item is-secondary" href="#accueil">Accueil</a>
+          <a class="navbar-item is-secondary" href="#photos">Photos</a>
+          <a class="navbar-item is-secondary" href="#contact">Contact</a>
         </div>
 
         <div class="navbar-end">
-          {{- range $navbar }}
-          {{- if .sublinks }}
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              {{ .title }}
-            </a>
-
-            <div class="navbar-dropdown">
-              {{- range .sublinks }}
-              <a href="{{ .url }}" class="navbar-item">
-                {{ .title }}
-              </a>
-              {{- end }}
-            </div>
-          </div>
-          {{- else if .button }}
-          <a href="{{ .url }}" class="navbar-item">
-            <span class="button signup-button rounded secondary-btn raised">
-              {{ .title }}
-            </span>
-          </a>
-          {{- else }}
-          <a href="{{ .url }}" class="navbar-item is-secondary">
-            {{ .title }}
-          </a>
-          {{- end }}
-          {{- end }}
+          <a class="phone-link" href="tel:{{ $navbarPhone }}"><img class="phone-icon" src='{{ "images/illustrations/icon__phone.svg" | relURL }}' alt="Téléphone"/> {{ $navbarPhone }}</a>
         </div>
       </div>
   </div>

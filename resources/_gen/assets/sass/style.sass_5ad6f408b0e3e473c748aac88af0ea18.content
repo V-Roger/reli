@@ -6199,8 +6199,10 @@ Navbar
     display: block;
     position: absolute;
     left: 50%;
+    top: 5px;
     margin-left: -250px;
     width: 500px;
+    max-width: 100vw;
     min-height: 4rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -6218,8 +6220,27 @@ Navbar
       background: transparent !important; }
   .navbar.is-fresh .navbar-end {
     align-items: center; }
+    .navbar.is-fresh .navbar-end img {
+      max-height: 36px !important;
+      height: 36px; }
+    .navbar.is-fresh .navbar-end .phone-link {
+      position: relative;
+      top: -5px;
+      left: 5px;
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff; }
+      .navbar.is-fresh .navbar-end .phone-link:hover {
+        color: #ace1cd; }
+      .navbar.is-fresh .navbar-end .phone-link img {
+        position: relative;
+        top: 12px; }
   .navbar.is-fresh .navbar-item {
     color: #fff; }
+    .navbar.is-fresh .navbar-item:hover {
+      background: none; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
       color: #ace1cd !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
@@ -6256,7 +6277,7 @@ Navbar
     background: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
     .navbar.is-fresh.is-fixed a {
-      color: #444F60; }
+      color: #fff; }
       .navbar.is-fresh.is-fixed a:hover {
         color: #ace1cd; }
 
@@ -6269,9 +6290,22 @@ Navbar
   transform: translateY(-100%);
   z-index: 1000;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
-  color: #999; }
+  color: #999 !important; }
   #navbar-clone.is-active {
     transform: translateY(0); }
+  #navbar-clone .navbar-brand a {
+    color: #999 !important; }
+  #navbar-clone a {
+    color: #999 !important; }
+    #navbar-clone a img {
+      max-height: 36px !important;
+      height: 36px; }
+
+@media (max-width: 1000px) {
+  .navbar.is-fresh .navbar-brand {
+    font-size: 1rem;
+    left: 0;
+    margin-left: 0; } }
 
 /* ==========================================================================
 Dropdown styles
@@ -6420,10 +6454,10 @@ Hero styles
 ========================================================================== */
 .hero-body {
   margin-top: -4rem;
-  padding-top: 6rem;
-  padding-bottom: 12rem;
-  background-size: 100%;
+  padding: 20rem 0;
+  background-size: cover;
   background-position: top center;
+  background-repeat: no-repeat;
   color: #fff; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif;
@@ -6443,6 +6477,16 @@ Hero styles
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
   .hero-foot img.partner-logo {
     height: 70px; }
+
+@media (max-width: 1000px) {
+  .hero-body {
+    padding: 10rem 2rem 2rem 2rem; }
+    .hero-body .title {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 4px;
+      padding: 40px; }
+  .hero-foot {
+    padding: 5rem 2rem; } }
 
 /* ==========================================================================
 Fresh Footer
