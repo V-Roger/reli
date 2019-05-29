@@ -19,7 +19,7 @@ section2_subtitle = "Qui sommes-nous ?"
 section2_title = "Présentation"
 section4_subtitle = "Le cabinet est accessible aux personnes à mobilité réduite."
 section4_title = "Cabinet d'Aurélie Gaudiller  & Estelle Orard"
-subtitle = "Prenez rendez-vous au : "
+subtitle = "Prenez rendez-vous au :"
 title = "Le cabinet de psychologie est situé au 6 rue des naïves à Feyzin"
 [[photos]]
 caption = ""
