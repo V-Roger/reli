@@ -1,7 +1,6 @@
 ---
 label: Colored background
 hide_body: false
-is_partial: false
 fields:
 - type: textarea
   name: content
