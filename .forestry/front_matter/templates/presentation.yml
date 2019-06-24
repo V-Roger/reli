@@ -12,3 +12,5 @@ fields:
 - type: file
   name: photo
   label: Photo
+pages:
+- content/quand-consulter.md
