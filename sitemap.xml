@@ -24,6 +24,15 @@
   </url>
   
   <url>
+    <loc>https://v-roger.github.io/reli/prestations/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://v-roger.github.io/reli/prestations/quand-consulter/</loc>
+  </url>
+  
+  <url>
     <loc>https://v-roger.github.io/reli/prestations/adulte/</loc>
   </url>
   
