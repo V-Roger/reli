@@ -1,34 +1,36 @@
 {{- $section2 := .Site.GetPage "/hero"  }}
 {{- $title := $section2.Params.section2_title }}
-{{- $title := $section2.Params.section2_subtitle }}
-{{- $features := $section2.Params.section2 }}
+{{- $subtitle := $section2.Params.section2_subtitle }}
+{{- $subtitle1 := $section2.Params.section2_subtitle1 }}
+{{- $subtitle2 := $section2.Params.section2_subtitle2 }}
+{{- $text := $section2.Params.section2_text }}
+{{- $text1 := $section2.Params.section2_text1 }}
+{{- $text2 := $section2.Params.section2_text2 }}
 <section class="section is-medium">
   <div class="container">
     <div class="title-wrapper">
       <h1 class="title section-title is-2 is-spaced">{{ $title }}</h1>
-      <h3 class="subtitle is-5 is-muted"></h3>
       <div class="divider"></div>
     </div>
     <div class="columns">
-      <div class="column is-7 mt-60">
-        {{- range $features }}
-        <article class="media icon-box">
-          <!-- <figure class="media-left image is-5 column">
-            <p class="image">
-              <img src="{{ printf "%s" .photo | relURL }}" alt="Description">
-            </p>
-          </figure> -->
+      <div class="column is-12 mt-60">
+        {{ $text }}
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-6 mt-60">
+        <div class="title-wrapper mb-60">
+          <h1 class="title section-title is-4 is-spaced">{{ $subtitle1 }}</h1>
           <div class="divider"></div>
-          <div class="media-content mt-50">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">{{ .name }}</span>
-                <span class="icon-box-text">{{ .summary }}</span>
-              </p>
-            </div>
-          </div>
-        </article>
-        {{- end }}
+        </div>
+        {{ $text1 }}
+      </div>
+      <div class="column is-6 mt-60">
+        <div class="title-wrapper mb-60">
+          <h1 class="title section-title is-4 is-spaced">{{ $subtitle2 }}</h1>
+          <div class="divider"></div>
+        </div>
+        {{ $text2 }}
       </div>
     </div>
   </div>
