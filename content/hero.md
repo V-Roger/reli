@@ -1,5 +1,5 @@
 +++
-Hero_footer = " Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement. "
+Hero_footer = " <b>Aurélie Gaudiller</b> et <b>Estelle Orard</b> vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement. "
 buttonlink = "#contact"
 buttontext = "07 83 98 01 98"
 content = "Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement."
