@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Content
   description: Content
+pages:
+- content/Prestations/quand-consulter.md
