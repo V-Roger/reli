@@ -1,10 +1,23 @@
 {{- $hero       := .Site.GetPage "/hero" }}
 {{- $title      := $hero.Params.title }}
+{{- $title2      := .Page.Params.title2 }}
 {{- $subtitle   := $hero.Params.subtitle }}
 {{- $buttonText := $hero.Params.buttontext }}
 {{- $buttonLink := $hero.Params.buttonlink }}
 {{- $image      := $hero.Params.hero_image }}
 {{ $content := .Page.Params.content }}
+{{ $heroText := .Page.Params.hero_text }}
+{{ $heroTitle := .Page.Params.hero_title }}
+{{ $heroButton := .Page.Params.hero_text }}
+{{ $subtitle1 := .Page.Params.subtitle1 }}
+{{ $subtitle2 := .Page.Params.subtitle2 }}
+{{ $subtitle3 := .Page.Params.subtitle3 }}
+{{ $subtitle4 := .Page.Params.subtitle4 }}
+{{ $text1 := .Page.Params.text1 }}
+{{ $text2 := .Page.Params.text2 }}
+{{ $text3 := .Page.Params.text3 }}
+{{ $text4 := .Page.Params.text4 }}
+{{ $text5 := .Page.Params.text5 }}
 <div id="accueil" class="hero-body" style="background-image: url('{{ printf "%s" $image | relURL }}');">
   <div class="container">
     <div class="columns is-vcentered">
@@ -12,18 +25,17 @@
         <h1 class="title is-1 is-bold is-spaced">
           {{ $title }}
         </h1>
-        {{ with $subtitle }}
-        <h2 class="subtitle is-5 is-muted">
-          {{ . }}
-        </h2>
-        {{ end }}
-        <p>
-          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
-            {{ $buttonText }}
-          </a>
-        </p>
+        <a class="button cta rounded white-btn raised" href="{{ $buttonLink }}">
+          {{ $subtitle }}{{ $buttonText }}
+        </a>
       </div>
     </div>
+  </div>
+</div>
+<div class="hero-foot mb-20 section section-secondary">
+  <div class="container">
+    <p>{{ $heroText }}</p>
+    <h3 class="title is-3">{{ $heroTitle }}</h3>
   </div>
 </div>
 <section class="section is-medium">
@@ -31,10 +43,47 @@
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
         <h1 class="title section-title">{{ .Title }}</h1>
-        <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
         <div class="divider"></div>
       </div>
     </div>
-    {{ $content }}
+    <div class="columns">
+      <div class="column is-12">
+        <h4 class="subtitle is-4">{{ $subtitle1 }}</h4>
+        <p>{{ $text1 }}</p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-12">
+        <h4 class="subtitle is-4">{{ $subtitle2 }}</h4>
+        <p>{{ $text2 }}</p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-12">
+        <h4 class="subtitle is-4">{{ $subtitle3 }}</h4>
+        <p>{{ $text3 }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">{{ $title2 }}</h1>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-12">
+        <p>{{ $text4 }}</p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-12">
+        <h4 class="subtitle is-4">{{ $subtitle4 }}</h4>
+        <p>{{ $text5 }}</p>
+      </div>
+    </div>
   </div>
 </section>
