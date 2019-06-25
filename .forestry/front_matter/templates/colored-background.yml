@@ -8,5 +8,3 @@ fields:
   config:
     required: true
   default: Enter content here
-pages:
-- content/content/quand-consulter.md
