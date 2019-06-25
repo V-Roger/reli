@@ -76,7 +76,6 @@ fields:
   label: Photos
   template_types:
   - photos
-- type: include
 - type: text
   name: footer_title
   label: Footer title
@@ -100,5 +99,42 @@ fields:
     use_select: false
     source:
       type: documents
+- name: section2_subtitle1
+  type: text
+  config:
+    required: false
+  label: Section2_subtitle1
+- name: section2_subtitle2
+  type: text
+  config:
+    required: false
+  label: section2_subtitle2
+- name: section2_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section2 Text
+- name: section2_text1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section2 text1
+- name: section2_text2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section2 text2
 pages:
 - content/hero.md
