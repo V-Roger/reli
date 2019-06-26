@@ -19,25 +19,20 @@
   </url>
   
   <url>
-    <loc>https://v-roger.github.io/reli/prestations/adulte/</loc>
-  </url>
-  
-  <url>
-    <loc>https://v-roger.github.io/reli/prestations/enfant-adolescent/</loc>
-  </url>
-  
-  <url>
-    <loc>https://v-roger.github.io/reli/prestations/</loc>
+    <loc>https://v-roger.github.io/reli/consultations/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://v-roger.github.io/reli/prestations/</loc>
-    <priority>0</priority>
+    <loc>https://v-roger.github.io/reli/consultations/adulte/</loc>
   </url>
   
   <url>
-    <loc>https://v-roger.github.io/reli/prestations/me-connaitre/</loc>
+    <loc>https://v-roger.github.io/reli/consultations/enfant-adolescent/</loc>
+  </url>
+  
+  <url>
+    <loc>https://v-roger.github.io/reli/me-connaitre/</loc>
   </url>
   
   <url>
