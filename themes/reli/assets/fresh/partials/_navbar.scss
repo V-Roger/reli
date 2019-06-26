@@ -85,7 +85,7 @@ Navbar
     }
   }
   //Navbar items
-  .navbar-item {
+  .navbar-item{
     color: $white;
     &:hover {
       background: none;
@@ -114,6 +114,7 @@ Navbar
         border-top-color: $secondary;
         .navbar-item {
           padding: 10px 20px;
+          color: $muted-grey;
         }
       }
       &:hover {
