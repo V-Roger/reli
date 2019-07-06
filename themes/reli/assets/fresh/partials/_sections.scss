@@ -4,6 +4,10 @@ Section Styles
 
 //Sections
 .section {
+  & p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
   &.section-light-grey {
     background-color: $light-grey;
   }

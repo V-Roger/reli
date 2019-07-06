@@ -1,6 +1,6 @@
 +++
 Hero_footer = " <b>Aurélie Gaudiller</b> et <b>Estelle Orard</b> vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement. "
-buttonlink = "#contact"
+buttonlink = "0783980198"
 buttontext = "07 83 98 01 98"
 content = "Aurélie Gaudiller et Estelle Orard vous accueillent en consultation dans leur cabinet de psychologie, du lundi au vendredi sur rendez-vous uniquement."
 date = "2018-11-26T19:14:36+00:00"
@@ -23,7 +23,7 @@ section2_text1 = "Se confier à une tierce personne, même si c'est un professio
 section2_text2 = "Chaque personne a un rythme différent, et ne présente pas les mêmes souffrances. Je m'adapte donc à chaque patient qui entreprend un travail psychothérapeutique. Toutefois, c'est toujours le patient qui décide quand il n'a plus besoin de consulter. Le psychologue mentionne juste son avis, s'il pense que la thérapie doit se poursuivre, mais ne peut en aucun cas obliger son patient à continuer."
 section4_subtitle = "Le cabinet est accessible aux personnes à mobilité réduite."
 section4_title = "Cabinet d'Aurélie Gaudiller  & Estelle Orard"
-subtitle = "Prenez rendez-vous au :"
+subtitle = "Prenez rendez-vous au : "
 title = "Le cabinet de psychologie est situé au 6 rue des naïves à Feyzin"
 [[photos]]
 caption = ""
