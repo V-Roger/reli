@@ -6194,7 +6194,10 @@ Navbar
     box-shadow: none !important; }
   .navbar.is-fresh .navbar-burger {
     width: 4rem;
-    height: 4rem; }
+    height: 4rem;
+    color: #fff; }
+    .navbar.is-fresh .navbar-burger.is-active {
+      color: #999; }
   .navbar.is-fresh .navbar-brand {
     display: block;
     position: absolute;
@@ -6218,6 +6221,9 @@ Navbar
       height: 36px; }
     .navbar.is-fresh .navbar-brand:hover .navbar-item {
       background: transparent !important; }
+  .navbar.is-fresh .navbar-menu.is-active {
+    position: relative;
+    top: 110px; }
   .navbar.is-fresh .navbar-end {
     align-items: center; }
     .navbar.is-fresh .navbar-end img {
@@ -6232,6 +6238,9 @@ Navbar
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #fff; }
+      @media all and (max-width: 1088px) {
+        .navbar.is-fresh .navbar-end .phone-link {
+          color: #999; } }
       .navbar.is-fresh .navbar-end .phone-link:hover {
         color: #ace1cd; }
       .navbar.is-fresh .navbar-end .phone-link img {
@@ -6240,6 +6249,9 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #fff;
     font-size: 1.2rem; }
+    @media all and (max-width: 1088px) {
+      .navbar.is-fresh .navbar-item {
+        color: #999; } }
     .navbar.is-fresh .navbar-item:hover {
       background: none; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
@@ -6489,7 +6501,7 @@ Hero styles
 
 @media (max-width: 1000px) {
   .hero-body {
-    padding: 10rem 2rem 2rem 2rem; }
+    padding: 10rem 0 2rem 0; }
     .hero-body .title {
       background: rgba(0, 0, 0, 0.3);
       border-radius: 4px;

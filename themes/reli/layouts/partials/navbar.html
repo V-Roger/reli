@@ -1,10 +1,16 @@
 {{- $navbar       := .Site.GetPage "/hero" }}
 {{- $navbarPhone  := $navbar.Params.phone_number }}
+
 <nav class="navbar is-fresh no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="#accueil">
         Cabinet Psychologue Feyzin
+      </a>
+      <a role="button" class="navbar-burger is-white is-hidden-desktop" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
     </div>
 
