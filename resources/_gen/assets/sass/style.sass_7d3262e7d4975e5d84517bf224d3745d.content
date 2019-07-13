@@ -6251,7 +6251,7 @@ Navbar
     font-size: 1.2rem; }
     @media all and (max-width: 1088px) {
       .navbar.is-fresh .navbar-item {
-        color: #999; } }
+        color: #fff; } }
     .navbar.is-fresh .navbar-item:hover {
       background: none; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
@@ -6319,7 +6319,9 @@ Navbar
   .navbar.is-fresh .navbar-brand {
     font-size: 1rem;
     left: 0;
-    margin-left: 0; } }
+    margin-left: 0; }
+  .navbar.is-fresh .is-active .navbar-item {
+    color: #999 !important; } }
 
 /* ==========================================================================
 Dropdown styles
@@ -6481,7 +6483,8 @@ Hero styles
     font-family: 'Open Sans', sans-serif;
     color: #fff; }
   .hero-body .title {
-    font-size: 2rem; }
+    font-size: 2.4rem;
+    line-height: 2.6rem; }
     .hero-body .title.is-bold {
       font-weight: 500; }
   .hero-body .subtitle.is-muted {

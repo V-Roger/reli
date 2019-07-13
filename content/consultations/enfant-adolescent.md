@@ -8,6 +8,7 @@ text3: "Celui-ci se déroule en 3 temps :\n\nPremière séance en présence des 
 subtitle1: "Motifs de consultation fréquents :"
 subtitle2: "Comment se déroulent la consultation ?"
 subtitle3: "Bilan psychologique"
+image: "/uploads/child.jpg"
 title2: "Les adolescents"
 subtitle4: "Comment se déroulent la consultation ?"
 text4: "Plus tout à fait des enfants mais pas encore des adultes, les adolescents connaissent de brusques changements physiques et psychiques qui peuvent générer des souffrances et des difficultés qui se répercutent sur leur vie scolaire et affective. Les principaux motifs de consultations sont l'anxiété, les phobies scolaires, les états dépressifs, les troubles alimentaires..."

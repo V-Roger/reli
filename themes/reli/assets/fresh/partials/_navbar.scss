@@ -103,7 +103,7 @@ Navbar
     font-size: 1.2rem;
 
     @media all and (max-width: $desktop) {
-      color: $muted-grey;
+      color: $white;
     }
 
     &:hover {
@@ -204,6 +204,12 @@ Navbar
       font-size: 1rem;
       left: 0;
       margin-left: 0;
+    }
+
+    & .is-active {
+      & .navbar-item {
+        color: $muted-grey !important;
+      }
     }
   }
 }

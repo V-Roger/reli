@@ -18,6 +18,7 @@
 {{ $text3 := .Page.Params.text3 }}
 {{ $text4 := .Page.Params.text4 }}
 {{ $text5 := .Page.Params.text5 }}
+{{ $contentImage := .Page.Params.image }}
 <div id="accueil" class="hero-body" style="background-image: url('{{ printf "%s" $image | relURL }}');">
   <div class="container">
     <div class="columns is-vcentered">
@@ -65,6 +66,9 @@
       </div>
     </div>
   </div>
+</section>
+<section class="container">
+  <img src="{{ printf "%s" $contentImage | relURL }}"/>
 </section>
 <section class="section is-medium">
   <div class="container">
