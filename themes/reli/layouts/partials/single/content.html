@@ -67,9 +67,11 @@
     </div>
   </div>
 </section>
+{{ with $contentImage }}
 <section class="container">
   <img src="{{ printf "%s" $contentImage | relURL }}"/>
 </section>
+{{ end }}
 <section class="section is-medium">
   <div class="container">
     <div class="columns">
