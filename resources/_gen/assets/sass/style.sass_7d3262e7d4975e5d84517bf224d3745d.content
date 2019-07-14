@@ -6489,6 +6489,8 @@ Hero styles
       font-weight: 500; }
   .hero-body .subtitle.is-muted {
     color: #fff; }
+  .hero-body .button {
+    white-space: normal !important; }
 
 .hero-foot {
   font-size: 18pt;
