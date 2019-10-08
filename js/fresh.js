@@ -10,7 +10,6 @@ $(document).ready(function(){
     //Mobile menu toggle
     if ($('.navbar-burger').length) {
         $('.navbar-burger').on("click", function(){
-
             var menu_id = $(this).attr('data-target');
             $(this).toggleClass('is-active');
             $("#"+menu_id).toggleClass('is-active');

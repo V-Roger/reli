@@ -2,48 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aurélie</title>
-    <link>https://v-roger.github.io/reli/</link>
+    <link>http://psychologues-feyzin.fr/v2/</link>
     <description>Recent content on Aurélie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Mon, 26 Nov 2018 19:14:36 +0000</lastBuildDate>
     
-	<atom:link href="https://v-roger.github.io/reli/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://psychologues-feyzin.fr/v2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Le cabinet de psychologie est situé au 6 rue des naïves à Feyzin</title>
-      <link>https://v-roger.github.io/reli/hero/</link>
+      <link>http://psychologues-feyzin.fr/v2/hero/</link>
       <pubDate>Mon, 26 Nov 2018 19:14:36 +0000</pubDate>
       
-      <guid>https://v-roger.github.io/reli/hero/</guid>
+      <guid>http://psychologues-feyzin.fr/v2/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Les adultes</title>
-      <link>https://v-roger.github.io/reli/consultations/adulte/</link>
+      <link>http://psychologues-feyzin.fr/v2/consultations/adulte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-roger.github.io/reli/consultations/adulte/</guid>
+      <guid>http://psychologues-feyzin.fr/v2/consultations/adulte/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Les enfants</title>
-      <link>https://v-roger.github.io/reli/consultations/enfant-adolescent/</link>
+      <link>http://psychologues-feyzin.fr/v2/consultations/enfant-adolescent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-roger.github.io/reli/consultations/enfant-adolescent/</guid>
+      <guid>http://psychologues-feyzin.fr/v2/consultations/enfant-adolescent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qui suis-je ?</title>
-      <link>https://v-roger.github.io/reli/me-connaitre/</link>
+      <link>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-roger.github.io/reli/me-connaitre/</guid>
+      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qui suis-je ?</title>
+      <link>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</guid>
       <description></description>
     </item>
     
