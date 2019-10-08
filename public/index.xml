@@ -40,10 +40,19 @@
     
     <item>
       <title>Qui suis-je ?</title>
-      <link>http://psychologues-feyzin.fr/v2/me-connaitre/</link>
+      <link>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/</guid>
+      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qui suis-je ?</title>
+      <link>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,6 @@
   <url>
     <loc>http://psychologues-feyzin.fr/v2/</loc>
     <lastmod>2018-11-26T19:14:36+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -15,12 +14,10 @@
   
   <url>
     <loc>http://psychologues-feyzin.fr/v2/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://psychologues-feyzin.fr/v2/consultations/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -36,8 +33,15 @@
   </url>
   
   <url>
+    <loc>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</loc>
+  </url>
+  
+  <url>
+    <loc>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</loc>
+  </url>
+  
+  <url>
     <loc>http://psychologues-feyzin.fr/v2/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

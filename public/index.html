@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
   <head>
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.58.3" />
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,7 +9,7 @@
     
 <link rel="icon" type="image/png" href="http://psychologues-feyzin.fr/images/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/v2/css/reli.min.7a1b26da3a8e5f7e909c4535bada7b399107d07b3e4a91b8776122fff13c657b.css" integrity="sha256-ehsm2jqOX36QnEU1utp7OZEH0Hs&#43;SpG4d2Ei//E8ZXs=">
+<link rel="stylesheet" type="text/css" href="/v2/css/reli.min.456fac3139f767aac84f90fb40fcd9810c7f93d2213aacd30ea20bcbed279ecd.css" integrity="sha256-RW&#43;sMTn3Z6rIT5D7QPzZgQx/k9IhOqzTDqILy&#43;0nns0=">
 <link rel="stylesheet" type="text/css" href="http://psychologues-feyzin.fr/css/icons.css">
 
   </head>
@@ -39,7 +39,19 @@
       <div id="navbar-menu" class="navbar-menu is-static">
         <div class="navbar-start">
           <a class="navbar-item is-secondary" href="/#accueil">Accueil</a>
-          <a class="navbar-item is-secondary" href="/me-connaitre">Me connaître</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item is-secondary" href="#">
+              Nous connaître
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item is-secondary" href="/me-connaitre/aurelie-gaudiller">
+                Aurélie Gaudiller
+              </a>
+              <a class="navbar-item is-secondary" href="/me-connaitre/estelle-orard">
+                Estelle Orard
+              </a>
+            </div>
+          </div>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-item is-secondary" href="#">
               Consultations
@@ -57,7 +69,7 @@
         </div>
 
         <div class="navbar-end">
-          <a class="phone-link" href="tel:0783980198"><img class="phone-icon" src='/v2/images/illustrations/icon__phone.svg' alt="Téléphone"/> 0783980198</a>
+          <a class="phone-link" href="tel:0783980198"><img class="phone-icon" src='/v2/images/illustrations/icon__phone--muted-grey.svg' alt="Téléphone"/> 0783980198</a>
         </div>
       </div>
   </div>
@@ -75,7 +87,19 @@
 
       <div class="navbar-start">
         <a class="navbar-item is-secondary" href="/#accueil">Accueil</a>
-        <a class="navbar-item is-secondary" href="/me-connaitre">Me connaître</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-item is-secondary" href="#">
+            Nous connaître
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item is-secondary" href="/me-connaitre/aurelie-gaudiller">
+              Aurélie Gaudiller
+            </a>
+            <a class="navbar-item is-secondary" href="/me-connaitre/estelle-orard">
+              Estelle Orard
+            </a>
+          </div>
+        </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-item is-secondary" href="#">
             Consultations
@@ -110,6 +134,7 @@
           
           Prenez rendez-vous au : 
           
+          <br/>
           07 83 98 01 98
         </a>
       </div>
@@ -174,7 +199,7 @@
         <div class="column is-3">
           <figure class="">
             <blockquote>
-              <img src="/v2/uploads/carre%cc%81%204.jpg" alt="Description">
+              <img src="/v2/uploads/carre4.jpg" alt="Description">
             </blockquote>
             <div class="author">
               
@@ -186,7 +211,7 @@
         <div class="column is-3">
           <figure class="">
             <blockquote>
-              <img src="/v2/uploads/carre%cc%81%203.jpg" alt="Description">
+              <img src="/v2/uploads/carre3.jpg" alt="Description">
             </blockquote>
             <div class="author">
               
@@ -198,7 +223,7 @@
         <div class="column is-3">
           <figure class="">
             <blockquote>
-              <img src="/v2/uploads/carre%cc%811.jpg" alt="Description">
+              <img src="/v2/uploads/carre1.jpg" alt="Description">
             </blockquote>
             <div class="author">
               
@@ -210,7 +235,7 @@
         <div class="column is-3">
           <figure class="">
             <blockquote>
-              <img src="/v2/uploads/carre%cc%812.jpg" alt="Description">
+              <img src="/v2/uploads/carre2.jpg" alt="Description">
             </blockquote>
             <div class="author">
               
@@ -257,7 +282,11 @@
         </address>
       </div>
       <div class="column has-text-centered">
-        
+        <h2>Estelle Orard</h2>
+        <h3>Psychologue clinicienne</h3>
+        <address>
+          6 rue des naïves  69320 Feyzin
+        </address>
       </div>
       <div class="column has-text-centered">
         <img class="phone-icon" src='/v2/images/illustrations/icon__phone.svg' alt="Téléphone"/>
@@ -302,20 +331,5 @@ crossorigin=""></script>
   }
   initMap();
 </script>
-    <script>
-      var map;
-      function initMap() {
-        map = L.map('map').setView([45.676207, 4.862148], window.innerWidth > 1000 ? 15 : 16);
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
-          attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-          minZoom: 10,
-          maxZoom: 18,
-          scrollWheelZoom: false,
-          touchZoom: false,
-        }).addTo(map);
-        var marker = L.marker([45.676207, 4.862148]).addTo(map)
-      }
-      initMap();
-    </script>
   </body>
 </html>

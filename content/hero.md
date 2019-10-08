@@ -27,22 +27,22 @@ subtitle = "Prenez rendez-vous au : "
 title = "Le cabinet de psychologie est situé au 6 rue des naïves à Feyzin"
 [[photos]]
 caption = ""
-photo = "/uploads/carré 4.jpg"
+photo = "/uploads/carre4.jpg"
 subcaption = ""
 template = "photos"
 [[photos]]
 caption = ""
-photo = "/uploads/carré 3.jpg"
+photo = "/uploads/carre3.jpg"
 subcaption = ""
 template = "photos"
 [[photos]]
 caption = ""
-photo = "/uploads/carré1.jpg"
+photo = "/uploads/carre1.jpg"
 subcaption = ""
 template = "photos"
 [[photos]]
 caption = ""
-photo = "/uploads/carré2.jpg"
+photo = "/uploads/carre2.jpg"
 subcaption = ""
 template = "photos"
 [[section1]]

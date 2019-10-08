@@ -17,7 +17,19 @@
       <div id="navbar-menu" class="navbar-menu is-static">
         <div class="navbar-start">
           <a class="navbar-item is-secondary" href="/#accueil">Accueil</a>
-          <a class="navbar-item is-secondary" href="/me-connaitre">Me connaître</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item is-secondary" href="#">
+              Nous connaître
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item is-secondary" href="/me-connaitre/aurelie-gaudiller">
+                Aurélie Gaudiller
+              </a>
+              <a class="navbar-item is-secondary" href="/me-connaitre/estelle-orard">
+                Estelle Orard
+              </a>
+            </div>
+          </div>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-item is-secondary" href="#">
               Consultations
@@ -35,7 +47,7 @@
         </div>
 
         <div class="navbar-end">
-          <a class="phone-link" href="tel:{{ $navbarPhone }}"><img class="phone-icon" src='{{ "images/illustrations/icon__phone.svg" | relURL }}' alt="Téléphone"/> {{ $navbarPhone }}</a>
+          <a class="phone-link" href="tel:{{ $navbarPhone }}"><img class="phone-icon" src='{{ "images/illustrations/icon__phone--muted-grey.svg" | relURL }}' alt="Téléphone"/> {{ $navbarPhone }}</a>
         </div>
       </div>
   </div>
