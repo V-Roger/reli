@@ -13,6 +13,7 @@
 {{ $subtitle2 := .Page.Params.subtitle2 }}
 {{ $subtitle3 := .Page.Params.subtitle3 }}
 {{ $subtitle4 := .Page.Params.subtitle4 }}
+{{ $subtitle5 := .Page.Params.subtitle5 }}
 {{ $text1 := .Page.Params.text1 }}
 {{ $text2 := .Page.Params.text2 }}
 {{ $text3 := .Page.Params.text3 }}
@@ -82,12 +83,13 @@
     </div>
     <div class="columns">
       <div class="column is-12">
+        <h4 class="subtitle is-4">{{ $subtitle4 }}</h4>
         <p>{{ $text4 }}</p>
       </div>
     </div>
     <div class="columns">
       <div class="column is-12">
-        <h4 class="subtitle is-4">{{ $subtitle4 }}</h4>
+        <h4 class="subtitle is-4">{{ $subtitle5 }}</h4>
         <p>{{ $text5 }}</p>
       </div>
     </div>
