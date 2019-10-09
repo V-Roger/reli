@@ -3,49 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/hero/</loc>
+    <loc>/hero/</loc>
     <lastmod>2018-11-26T19:14:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/</loc>
+    <loc>/</loc>
     <lastmod>2018-11-26T19:14:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/consultations/</loc>
+    <loc>/consultations/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/consultations/adulte/</loc>
+    <loc>/consultations/adulte/</loc>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/consultations/enfant-adolescent/</loc>
+    <loc>/consultations/enfant-adolescent/</loc>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/me-connaitre/</loc>
+    <loc>/me-connaitre/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</loc>
+    <loc>/me-connaitre/aurelie-gaudiller/</loc>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</loc>
+    <loc>/me-connaitre/estelle-orard/</loc>
   </url>
   
   <url>
-    <loc>http://psychologues-feyzin.fr/v2/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

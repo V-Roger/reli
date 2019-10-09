@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me-connaitres on Aurélie</title>
-    <link>http://psychologues-feyzin.fr/v2/me-connaitre/</link>
+    <link>/me-connaitre/</link>
     <description>Recent content in Me-connaitres on Aurélie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     
-	<atom:link href="http://psychologues-feyzin.fr/v2/me-connaitre/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/me-connaitre/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Qui suis-je ?</title>
-      <link>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</link>
+      <link>/me-connaitre/aurelie-gaudiller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/aurelie-gaudiller/</guid>
+      <guid>/me-connaitre/aurelie-gaudiller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qui suis-je ?</title>
-      <link>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</link>
+      <link>/me-connaitre/estelle-orard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://psychologues-feyzin.fr/v2/me-connaitre/estelle-orard/</guid>
+      <guid>/me-connaitre/estelle-orard/</guid>
       <description></description>
     </item>
     
